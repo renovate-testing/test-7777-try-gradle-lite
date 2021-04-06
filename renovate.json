@@ -1,4 +1,7 @@
 {
+  "extends": [
+    "config:base"
+  ],
   "enabledManagers": ["gradle-lite", "gradle-wrapper"],
   "packageRules": [
     {
