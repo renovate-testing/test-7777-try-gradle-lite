@@ -2,7 +2,12 @@
   "extends": [
     "config:base"
   ],
-  "enabledManagers": ["gradle-lite", "gradle-wrapper"],
+  "gradle": {
+    "enabled": false
+  },
+  "gradle-lite": {
+    "enabled": true
+  },
   "packageRules": [
     {
       "packagePatterns": ["*"],
